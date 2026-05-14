@@ -109,29 +109,18 @@ export default function FeeStructureModal({ isOpen, onClose }: FeeStructureModal
         formData.append('class', selected.label);
         formData.append('api_key', API_KEY);
 
-        try {
-            const response = await fetch(API_URL, {
-                method: 'POST',
-                body: formData,
-            });
+        // ── Fire API as silent background lead capture (non-blocking) ──
+        fetch(API_URL, { method: 'POST', body: formData }).catch(() => {
+            // silently ignore — download must not be blocked by API errors
+        });
 
-            if (response.ok) {
-                setSubmitStatus('success');
-                setStatusMessage('Form submitted! Your download will start shortly...');
-                // Trigger download after a short delay
-                setTimeout(() => {
-                    triggerDownload();
-                }, 1500);
-            } else {
-                setSubmitStatus('error');
-                setStatusMessage('Something went wrong. Please try again.');
-            }
-        } catch {
-            setSubmitStatus('error');
-            setStatusMessage('Network error. Please check your connection.');
-        } finally {
-            setIsSubmitting(false);
-        }
+        // ── Always trigger download immediately ──
+        setIsSubmitting(false);
+        setSubmitStatus('success');
+        setStatusMessage('Download starting…');
+        setTimeout(() => {
+            triggerDownload();
+        }, 600);
     };
 
     if (!isOpen) return null;

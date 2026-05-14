@@ -4,6 +4,7 @@ export const headerLinks = [
   { pathname: "News & Events", path: "/#news" },
   { pathname: "Contact Us", path: "/#contact" },
   { pathname: "Career", path: "/career" },
+  { pathname: "Gallery", path: "/gallery" },
 ];
 
 export const navLinks = [
@@ -13,5 +14,6 @@ export const navLinks = [
   { to: "#why-gvmps", label: "Why GVMPS" },
   { to: "#contact", label: "Contact Us" },
   { to: "/career", label: "Career" },
+  { to: "/gallery", label: "Gallery" },
   { to: "#news", label: "News & Activities" },
 ];
