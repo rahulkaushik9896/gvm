@@ -125,5 +125,16 @@ export const galleryCategories: GalleryCategory[] = [
   //   accentColor: "#ef4444",
   //   cards: makeCards("community"),
   // },
-  
+  {
+    id: "science-lab",
+    title: "Science Lab",
+    subtitle: "Nurturing curiosity and discovery in our state-of-the-art laboratories",
+    accentColor: "#0ea5e9",
+    cards: [
+      { id: "sci-1", imageSrc: "/sci.jpeg", caption: "Science Lab" },
+      { id: "sci-2", imageSrc: "/sci2.jpeg", caption: "Scientific Exploration" },
+      { id: "sci-3", imageSrc: "/sci3.jpeg", caption: "Laboratory Research" },
+      { id: "sci-4", imageSrc: "/sci4.jpeg", caption: "Hands-on Learning" },
+    ],
+  },
 ];
