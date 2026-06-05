@@ -5,6 +5,7 @@ export const headerLinks = [
   { pathname: "Contact Us", path: "/#contact" },
   { pathname: "Career", path: "/career" },
   { pathname: "Gallery", path: "/gallery" },
+  { pathname: "Mandatory Disclosure", path: "/mandatory-disclosure" },
 ];
 
 export const navLinks = [
