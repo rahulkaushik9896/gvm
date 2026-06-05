@@ -60,7 +60,7 @@ const sections: Section[] = [
             { label: "School Code (If Applicable)", value: "40354" },
             {
                 label: "Complete Address with Pincode",
-                value: "Nimbari, Sanoli Road, Panipat-132103, Haryana",
+                value: "Nimbri, Sanoli Road, Panipat-132103, Haryana",
             },
             {
                 label: "Principal Name & Qualification",
