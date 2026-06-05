@@ -22,7 +22,7 @@ import poshCOMM  from "../assets/mandatoryDisclosureDocuments/POSH-COMM.pdf";
 import POCSO    from "../assets/mandatoryDisclosureDocuments/POCSO.pdf";
 import copyOfSocieties from "../assets/mandatoryDisclosureDocuments/KR Education Society (Amended MOA & Bye-Laws).pdf"
 import academicCalender from "../assets/mandatoryDisclosureDocuments/AcademicCLENDER.pdf"
-
+ 
 // ---------------------------------------------------------------------------
 // Types
 // ---------------------------------------------------------------------------
