@@ -8,15 +8,13 @@ import { useState } from "react";
 // ---------------------------------------------------------------------------
 
 // Section B — Documents and Information
-import recognitionCertific        from "../assets/mandatoryDisclosureDocuments/GVMPS AFFILIATION LETTER_250408_102923.pdf";
-// import trustCertificate           from "../assests/mandatoryDisclosureDocuments/trustcertificate.pdf";
-// import noc                        from "../assests/mandatoryDisclosureDocuments/noc.pdf";
-import buildingCertificate        from "../assets/mandatoryDisclosureDocuments/building safety gvmps old.pdf";
-import fireCertificate            from "../assets/mandatoryDisclosureDocuments/FireSafetyGvm.pdf";
-// import selfCertificationProforma  from "../assests/mandatoryDisclosureDocuments/SELF-CERTIFICATION-PROFORMA.pdf";
-import waterHealthCertificateTestReport     from "../assets/mandatoryDisclosureDocuments/WATER REPORTING CBSE.pdf";
+import recognitionCertific   from "../assets/mandatoryDisclosureDocuments/GVMPS AFFILIATION LETTER_250408_102923.pdf";
+import buildingCertificate   from "../assets/mandatoryDisclosureDocuments/building safety gvmps old.pdf";
+import fireCertificate       from "../assets/mandatoryDisclosureDocuments/FireSafetyGvm.pdf";
+import waterHealthCertificateTestReport  from "../assets/mandatoryDisclosureDocuments/WATER REPORTING CBSE.pdf";
 import waterHealthCertificate  from "../assets/mandatoryDisclosureDocuments/hygenic ceritificate gvmps old.pdf";
-// import certificateOfLand          from "../assests/mandatoryDisclosureDocuments/certificateofland.pdf";
+import LandCertificate from "../assets/mandatoryDisclosureDocuments/landStructure.pdf"
+
 
 // Section C — Result and Academics
 import GVM12THResult from "../assets/mandatoryDisclosureDocuments/GVMPS XII RESULT 2025-26-1.pdf"
@@ -57,12 +55,12 @@ const sections: Section[] = [
         id: "A",
         title: "General Information",
         rows: [
-            { label: "Name of the School", value: "Geeta Vidya Mandir Public SCHOOL" },
+            { label: "Name of the School", value: "Geeta Vidya Mandir Public School" },
             { label: "Affiliation No. (If Applicable)", value: "530347" },
             { label: "School Code (If Applicable)", value: "40354" },
             {
                 label: "Complete Address with Pincode",
-                value: "Near N.H.B.C, Sanoli Road, Panipat-132103, Haryana",
+                value: "Nimbari, Sanoli Road, Panipat-132103, Haryana",
             },
             {
                 label: "Principal Name & Qualification",
@@ -124,8 +122,8 @@ const sections: Section[] = [
             },
             {
                 label: "Copy of Valid Land Certificate",
-                // link: { href: certificateOfLand, text: "Download" },
-                link: { href: "certificateofland.pdf", text: "Download" },
+                link: { href: LandCertificate, text: "Download" },
+                
             },
         ],
     },
@@ -197,8 +195,8 @@ const sections: Section[] = [
             { label: "Total Number of Class Rooms", value: "20" },
             { label: "Total Number of Laboratories Including Computer Labs", value: "6" },
             { label: "Internet Facility", value: "YES" },
-            { label: "Number of Girls Toilets", value: "2" },
-            { label: "Number of Boys Toilets", value: "2" },
+            { label: "Number of Girls Toilets", value: "3" },
+            { label: "Number of Boys Toilets", value: "3" },
             {
                 label: "Instagram Video of the School Covering the Infrastructure",
                 link: {
