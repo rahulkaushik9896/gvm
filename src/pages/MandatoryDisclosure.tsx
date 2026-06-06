@@ -16,12 +16,15 @@ import waterHealthCertificate  from "../assets/mandatoryDisclosureDocuments/hyge
 import LandCertificate from "../assets/mandatoryDisclosureDocuments/landStructure.pdf"
 
 
+
 // Section C — Result and Academics
 import GVM12THResult from "../assets/mandatoryDisclosureDocuments/GVMPS XII RESULT 2025-26-1.pdf"
 import poshCOMM  from "../assets/mandatoryDisclosureDocuments/POSH-COMM.pdf";
 import POCSO    from "../assets/mandatoryDisclosureDocuments/POCSO.pdf";
-import copyOfSocieties from "../assets/mandatoryDisclosureDocuments/KR Education Society (Amended MOA & Bye-Laws).pdf"
-import academicCalender from "../assets/mandatoryDisclosureDocuments/AcademicCLENDER.pdf"
+import copyOfSocieties from "../assets/mandatoryDisclosureDocuments/KR Education Society (Amended MOA & Bye-Laws).pdf";
+import academicCalender from "../assets/mandatoryDisclosureDocuments/AcademicCLENDER.pdf";
+import PTA from "../assets/mandatoryDisclosureDocuments/PTA Details.pdf";
+import feeStructure from "../assets/mandatoryDisclosureDocuments/GVMPSFeeStructure.pdf";
  
 // ---------------------------------------------------------------------------
 // Types
@@ -133,8 +136,7 @@ const sections: Section[] = [
         rows: [
             {
                 label: "Fee Structure of the School 2025-26",
-                // link: { href: previousYearFeesStructure, text: "Download" },
-                link: { href: "GVMPSFeeStructure.pdf", text: "Download" },
+                link: { href: feeStructure, text: "Download" },
             },
             {
                 label: "Academic Calendar of the School 2026",
@@ -146,26 +148,24 @@ const sections: Section[] = [
                 link: { href: GVM12THResult, text: "Download" },
                
             },
-          
             {
                 label: "List of School Management Committee (SMC)",
                 // link: { href: lisSmc, text: "Download" },
-                link: { href: "lissmc.pdf", text: "Download" },
             },
             {
                 label: "POCSO Committee Members List",
                 link: { href: POCSO, text: "Download" },
-                // link: { href: "POCSO-COMMITTEE.pdf", text: "Download" },
+               
             },
             {
                 label: "POSH Committee Members List",
                 link: { href: poshCOMM, text: "Download" },
-                // link: { href: "POSH-COMMITEE.pdf", text: "Download" },
+               
             },
             {
                 label: "List of Parents Teachers Association (PTA) Members",
-                // link: { href: ptaExecutiveCommittee, text: "Download" },
-                link: { href: "PTA-Executive-Committee.pdf", text: "Download" },
+                link: { href: PTA, text: "Download" },
+                
             },
         ],
     },

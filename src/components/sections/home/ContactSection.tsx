@@ -216,7 +216,7 @@ export default function ContactSection() {
           <div className="rounded-2xl overflow-hidden ring-1 ring-accent-bg/15 h-80 lg:h-auto min-h-80 shadow-lg">
             <iframe
               title="School Location"
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d27811.692467929486!2d76.982541!3d29.386051!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390dda5c6f08fad3%3A0xdcb981f587643bc9!2sGeeta%20Vidya%20Mandir!5e0!3m2!1sen!2sin!4v1772173476430!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3476.702125109436!2d77.0331335744445!3d29.37900984979369!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390dd10665f5fdb5%3A0xf587aae3797a16ed!2sGeeta%20Vidya%20Mandir%20(GVM)%20School%2C%20Nimbri%2C%20Panipat!5e0!3m2!1sen!2sin!4v1780732962599!5m2!1sen!2sin"
               className="w-full h-full border-0"
               allowFullScreen
               loading="lazy"
