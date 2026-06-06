@@ -25,6 +25,7 @@ import copyOfSocieties from "../assets/mandatoryDisclosureDocuments/KR Education
 import academicCalender from "../assets/mandatoryDisclosureDocuments/AcademicCLENDER.pdf";
 import PTA from "../assets/mandatoryDisclosureDocuments/PTA Details.pdf";
 import feeStructure from "../assets/mandatoryDisclosureDocuments/GVMPSFeeStructure.pdf";
+import teacherDetails from "../assets/mandatoryDisclosureDocuments/Teachers's Details.pdf";
  
 // ---------------------------------------------------------------------------
 // Types
@@ -91,12 +92,12 @@ const sections: Section[] = [
             {
                 label: "Copy of No Objection Certificate (NOC) Issued by State Govt./UT",
                 // link: { href: noc, text: "Download" },
-                link: { href: "noc.pdf", text: "Download" },
+                link: { href: "#", text: "Download" },
             },
             {
                 label: "Copies of Recognition Certificate under RTE Act, 2009",
                 // link: { href: recognitionCertific, text: "Download" },
-                link: { href: "recognitioncertific.pdf", text: "Download" },
+                link: { href: "#", text: "Download" },
             },
             {
                 label: "Copy of Valid Building Safety Certificate",
@@ -111,7 +112,7 @@ const sections: Section[] = [
             {
                 label: "Copy of Self Certification for Affiliation / Upgradation / Extension",
                 // link: { href: selfCertificationProforma, text: "Download" },
-                link: { href: "SELF-CERTIFICATION-PROFORMA.pdf", text: "Download" },
+                link: { href: "#", text: "Download" },
             },
             {
                 label: "Copies of Valid Water, Health and Sanitation Certificates",
@@ -150,7 +151,7 @@ const sections: Section[] = [
             },
             {
                 label: "List of School Management Committee (SMC)",
-                // link: { href: lisSmc, text: "Download" },
+                link: { href: "#", text: "Download" },
             },
             {
                 label: "POCSO Committee Members List",
@@ -165,6 +166,11 @@ const sections: Section[] = [
             {
                 label: "List of Parents Teachers Association (PTA) Members",
                 link: { href: PTA, text: "Download" },
+                
+            },
+            {
+                label: "Teachers Details",
+                link: { href: teacherDetails, text: "Download" },
                 
             },
         ],
