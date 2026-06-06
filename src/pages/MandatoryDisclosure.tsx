@@ -134,7 +134,7 @@ const sections: Section[] = [
             {
                 label: "Fee Structure of the School 2025-26",
                 // link: { href: previousYearFeesStructure, text: "Download" },
-                link: { href: "Previousyearfeesstructure.pdf", text: "Download" },
+                link: { href: "GVMPSFeeStructure.pdf", text: "Download" },
             },
             {
                 label: "Academic Calendar of the School 2026",
