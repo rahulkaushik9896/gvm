@@ -145,7 +145,7 @@ const sections: Section[] = [
                
             },
              {
-                label: "GVM 12th Result 2025-26",
+                label: "Last 3 Year Result",
                 link: { href: GVM12THResult, text: "Download" },
                
             },
