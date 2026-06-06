@@ -2,10 +2,10 @@
 
 export const SCHOOL_NAME = "Geeta Vidya Mandir Public School";
 export const SCHOOL_SHORT_NAME = "GVMPS";
-export const SCHOOL_PHONE = "+91-9996611143";
+export const SCHOOL_PHONE = "+91-9996623013";
 export const SCHOOL_PHONE2 = "+91-9896471555";
 
-export const SCHOOL_EMAIL = "gvmps22@gmail.com";
+export const SCHOOL_EMAIL = "gvmpss@gmail.com";
 export const SCHOOL_ADDRESS = "Nimbri, Sanoli Road, Panipat-132103, Haryana";
 
 export const WHATSAPP_NUMBER = "919896471555";
