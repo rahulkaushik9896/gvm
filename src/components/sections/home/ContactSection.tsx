@@ -1,7 +1,6 @@
 import {
   SCHOOL_NAME,
   SCHOOL_PHONE,
-  SCHOOL_PHONE2,
   SCHOOL_EMAIL,
   SCHOOL_ADDRESS,
 } from "../../../utils/constants";
@@ -175,8 +174,8 @@ export default function ContactSection() {
             <ContactItem
               icon={<PhoneIcon />}
               label="Phone"
-              value={[SCHOOL_PHONE, SCHOOL_PHONE2]}
-              href={[`tel:${SCHOOL_PHONE}`, `tel:${SCHOOL_PHONE2}`]}
+              value={[SCHOOL_PHONE,]}
+              href={[`tel:${SCHOOL_PHONE}`]}
             />
             <ContactItem
               icon={<MailIcon />}
