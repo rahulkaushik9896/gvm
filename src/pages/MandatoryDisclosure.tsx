@@ -12,7 +12,7 @@ import recognitionCertific   from "../assets/mandatoryDisclosureDocuments/GVMPS 
 import buildingCertificate   from "../assets/mandatoryDisclosureDocuments/building safety gvmps old.pdf";
 import fireCertificate       from "../assets/mandatoryDisclosureDocuments/FireSafetyGvm.pdf";
 import waterHealthCertificateTestReport  from "../assets/mandatoryDisclosureDocuments/WATER REPORTING CBSE.pdf";
-import waterHealthCertificate  from "../assets/mandatoryDisclosureDocuments/hygenic ceritificate gvmps old.pdf";
+import waterHealthCertificate  from "../assets/mandatoryDisclosureDocuments/hygenic cerificate gvmps 2026.pdf";
 import LandCertificate from "../assets/mandatoryDisclosureDocuments/landStructure.pdf"
 
 
