@@ -9,11 +9,12 @@ import { useState } from "react";
 
 // Section B — Documents and Information
 import recognitionCertific   from "../assets/mandatoryDisclosureDocuments/GVMPS AFFILIATION LETTER_250408_102923.pdf";
-import buildingCertificate   from "../assets/mandatoryDisclosureDocuments/building safety gvmps old.pdf";
-import fireCertificate       from "../assets/mandatoryDisclosureDocuments/FireSafetyGvm.pdf";
+import buildingCertificate   from "../assets/mandatoryDisclosureDocuments/land certificate gvmps 2026.pdf";
+import fireCertificate       from "../assets/mandatoryDisclosureDocuments/DisplayCert (3).pdf";
 import waterHealthCertificateTestReport  from "../assets/mandatoryDisclosureDocuments/WATER REPORTING CBSE.pdf";
 import waterHealthCertificate  from "../assets/mandatoryDisclosureDocuments/hygenic cerificate gvmps 2026.pdf";
-import LandCertificate from "../assets/mandatoryDisclosureDocuments/landStructure.pdf"
+import LandCertificate from "../assets/mandatoryDisclosureDocuments/land certificate gvmps.pdf"
+import buildingSafety from "../assets/mandatoryDisclosureDocuments/buildinh safety gvmps 2026.pdf"
 
 
 
@@ -127,6 +128,11 @@ const sections: Section[] = [
             {
                 label: "Copy of Valid Land Certificate",
                 link: { href: LandCertificate, text: "Download" },
+                
+            },
+            {
+                label: "Building Safety Certificate",
+                link: { href: buildingSafety, text: "Download" },
                 
             },
         ],
